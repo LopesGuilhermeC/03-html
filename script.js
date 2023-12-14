@@ -1,6 +1,6 @@
-const formulario = document.getElementById('formulario');
+const form = document.getElementById('formulario');
 
-    formulario.addEventListener('submit', (event) => {
+form.addEventListener('submit', (event) => {
         event.preventDefault();
 
         const name = formulario.elements['name'].value;
