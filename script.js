@@ -1,4 +1,4 @@
-const formulario = document.getElementById('formulario');
+const form = document.getElementById('formulario');
 
     formulario.addEventListener('submit', (event) => {
         event.preventDefault();
