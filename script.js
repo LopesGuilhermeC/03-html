@@ -1,13 +1,12 @@
-const  formulario = document.querySelector('form')
+const formulario = document.querySelector('form')
 
-formulario.addEventListener('submit', (event) =>){
-    event.preventDefault();
+    formulario.addEventListener('submit', (event) => {
+        event.preventDefault();
 
-    const name = formulario.elements['name'],value;
-    const email = formulario.elements['email'],value;
-    const messageame = formulario.elements['message'],value;
+        const name = formulario.elements['name'].value;
+        const email = formulario.elements['email'].value;
+        const messageame = formulario.elements['message'].value;
 
-    const result = 'Nome: ${name}\nE-mail: ${email}\nMessage: ${message}';
-    alert(result);
-
-}
+        const result = `Nome: ${name}\nE-mail: ${email}\nMessage: ${message}`;
+        alert(result);
+    });
