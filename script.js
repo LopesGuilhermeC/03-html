@@ -9,4 +9,8 @@ form.addEventListener('submit', (event) => {
     
     const result = `Nome: ${name}\nE-mail: ${email}\nMessage: ${message}`;
     alert(result);
+
+ 
+
+
 });
