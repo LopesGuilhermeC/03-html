@@ -10,7 +10,4 @@ console.log(form)
     const result = `Nome: ${name}\nE-mail: ${email}\nMessage: ${message}`;
     alert(result);
 
- 
-
-
 });
